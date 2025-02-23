@@ -70,9 +70,9 @@ public class operator {
          System.out.println( x > y ? x : y);      // Ternary operator
         
         
-        System.out.println("Instance of operators");
-        String myText = "Hello"; 
-        // operator                                 
-         System.out.println("text is String: " + (myText instanceof String)); // Instance of operator
+        // System.out.println("Instance of operators");
+        // String myText = "Hello"; 
+        // // operator                                 
+        //  System.out.println("text is String: " + (myText instanceof String)); // Instance of operator
     }
 }
