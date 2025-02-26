@@ -36,7 +36,7 @@ public class Loops {
             k++;
         } while (k < 5);
         System.out.println("\n");
-        
+
         //for-each loop
         //There is also a "for-each" loop, which is used exclusively to loop through elements in an array
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
@@ -44,5 +44,30 @@ public class Loops {
             System.out.print(l);
             System.out.print(",");
         }
+
+        //break statement
+        //You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement.  
+        //The break statement can also be used to jump out of a loop
+        System.out.println("\n");
+        for (int m = 0; m < 10; m++) {
+            if (m == 4) {
+                break;
+            }
+            System.out.print(m);
+            System.out.print(",");
+        }
+        System.out.println("\n");
+
+        //continue statement
+        //The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop
+        for (int n = 0; n < 10; n++) {
+            if (n == 4) {
+                continue;
+            }
+            System.out.print(n);
+            System.out.print(",");
+        }   
+
+        
     }
 }
