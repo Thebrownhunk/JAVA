@@ -11,16 +11,19 @@ public class array {
         //The length of the array is established when the array is created and cannot be changed.
 
         //The syntax to declare an array is:
+
         //datatype[] arrayname;
               //or
         //datatype arrayname[];
 
         //The syntax to initialize an array is:
+
         //datatype[] arrayname = new datatype[size];
               //or
         //datatype arrayname[] = new datatype[size];
 
         //The syntax to initialize an array with values is:
+        
         //datatype[] arrayname = {value1, value2, value3, value4, ...};
               //or
         //datatype arrayname[] = {value1, value2, value3, value4, ...};
@@ -55,7 +58,7 @@ public class array {
 
         //The syntax to compare two arrays is:
         //Arrays.equals(arrayname1, arrayname2);
-        
+
         //The syntax to fill an array is:
         //Arrays.fill(arrayname, value);
         
