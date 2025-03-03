@@ -4,6 +4,7 @@ public class array {
         //Arrays
 
         //An array is a collection of similar type of elements which has contiguous memory location.
+        
         //Java array is an object which contains elements of a similar data type.
         //It is a data structure where we store similar elements.
         //We can store only a fixed set of elements in a Java array.
