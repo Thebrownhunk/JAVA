@@ -15,11 +15,11 @@ public class array {
 
         //Syntax-1 :- datatype[] arrayname;
         //Ex :-
-             int[] marks1; //declaration
+             //int[] marks1; //declaration
               //or
         //Syntax-2 :- datatype arrayname[];
         //Ex :-
-             int marks2[]; //declaration
+             //int marks2[]; //declaration
 
 
         //The syntax to initialize an array is:
@@ -76,7 +76,7 @@ public class array {
         //Ex :- 
              System.out.println(marks6.length);
 
-        //The syntax to iterate through an array is:
+        //The syntax to iterate through an array using the for-each loop is:
         // syntax :- for (int i = 0; i < arrayname.length; i++) {
         //                  System.out.println(arrayname[i]);
         //            }
