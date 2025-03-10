@@ -3,7 +3,7 @@ public class ReverseString {
         String str = "Hello World";
         String rev = "";
         for (int i = str.length() - 1; i >= 0; i--) {
-            rev = rev + str.charAt(i);
+            rev += str.charAt(i);
         }
         System.out.println("Reverse of the string is: " + rev);
     }
